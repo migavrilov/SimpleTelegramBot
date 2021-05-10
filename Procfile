@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.aok239.simpleTelegramBot
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.aok239.simpleTelegramBot.App
