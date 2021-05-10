@@ -26,7 +26,7 @@ public class Bot extends TelegramLongPollingBot {
         try {
             String user = update.getMessage().getFrom().getUserName();
             String text = update.getMessage().getText();
-            String answer = "Привет, " + user + "!" + "\nТы написал: " + text;
+            String answer = "Привет, " + user + ")" + "\nТы написал: " + text;
 
             execute(new SendMessage().setChatId(update.getMessage().getChatId())
                     .setText(answer));
