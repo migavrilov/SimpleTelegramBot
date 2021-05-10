@@ -51,7 +51,7 @@
 
 
     <build>
-        <finalName>TelegramNotifierBot</finalName>
+        <finalName>SimpleTelegramBot</finalName>
         <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>
