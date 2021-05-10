@@ -1,13 +1,18 @@
 bot:
-  name: JavaQuiz
+  name:
   token:
 spring:
   datasource:
     url:
-    driver-class-name: org.postgresql.Driver
+    driver-class-name:
     initialization-mode: never
+    username:
+    password:
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+
+
