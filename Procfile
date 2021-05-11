@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.aok239.simpleTelegramBot.App
+web: java --illegal-access=warn $JAVA_OPTS -cp target/classes:target/dependency/* com.aok239.simpleTelegramBot.App
