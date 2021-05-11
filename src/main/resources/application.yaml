@@ -1,9 +1,9 @@
 bot:
-  name:
-  token:
+  name: infomigavbot
+  token: 1709875518:AAHd71ZtL4Vfgkzlj4np662so-PWkZ8WwAI
 spring:
   datasource:
-    url:
+    url: postgres://kmgcyitzuqjpwy:c43d4b340f5bb25d64a79d297fede2faf6f4686ddd665623109f4e24a1466ee3@ec2-54-155-35-88.eu-west-1.compute.amazonaws.com:5432/d6oop9j9vau1v2
     driver-class-name: org.postgresql.Driver
     initialization-mode: never
     username:
