@@ -1,19 +1,17 @@
 bot:
-  name: TestAokBot
-  token: 1865100140:AAHkwAAglGt-gSriTDQEvX3ukfhdULp4UZY
+  name:
+  token:
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-54-166-167-192.compute-1.amazonaws.com:5432/d6712imns494sd
+    url:
     driver-class-name: org.postgresql.Driver
     initialization-mode: never
-    username: bvlkopzwyepjrg
-    password: 97e873bb187464ea8938c8b3c885369cd48acf8a71f992b6fc23b5ec77bc1818
+    username:
+    password:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
       ddl-auto: update
-server:
-  port=${PORT:8080}
 
 
